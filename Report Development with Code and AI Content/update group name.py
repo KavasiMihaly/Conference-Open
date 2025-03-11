@@ -43,7 +43,7 @@ def modify_display_name(json_file_path, modified_value, replaced_value):
 
 #Example usage--------------------------------------------------------------
 #Add the file path of the csv file containing the list of files to be modified (generate the file using the find_files.py script)
-csv_file_path = r'C:\Users\kavas\OneDrive\Documents\GitHub\Python-Scripts\Save Files\matching_files_visualGroup_20241119.csv'
+csv_file_path = r'find files script output file path'
 #Add the value to be replaced or added to the display name
 replace = None
 modify_with = "group"
@@ -58,6 +58,3 @@ for json_file_path in file_list:
     modify_display_name(json_file_path, modify_with, replace)
     print(f"Updated displayName values in {json_file_path}")
 
-# json_file_path = r'C:\Users\mihaly.kavasi\OneDrive - Avanade\Projects\Page\MWM\Leadership Insights Mihaly.Report\definition\pages\2857ff8ac39432eb67aa\visuals\6d46a36c7689a92b1616\visual.json'
-# modify_display_name(json_file_path)
-# print(f"Updated displayName values in {json_file_path}")

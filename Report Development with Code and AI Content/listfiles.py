@@ -4,11 +4,11 @@ import json
 
 #Input Parameters----------------------------------------------------------------------------------------------------------------
 #Define the root directory of the report
-root_directory = r'C:\Users\kavas\OneDrive\Documents\GitHub\PBITraining\Microsoft Demos\Travel Management\2 - Travel Management Power BI.Report'
+root_directory = r'report folder path'
 #Define the location where the file will be saved
-save_location = r'C:\Users\kavas\OneDrive\Documents\GitHub\Python-Scripts\Save Files'
+save_location = r'save location'
 #Define the name of the saved file
-file_name = 'Travel_Management_folder_structure.csv'
+file_name = 'saved_file_name.csv'
 
 #Functions
 def get_paths(root_dir):

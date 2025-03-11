@@ -43,8 +43,8 @@ def save_to_csv(extracted_info, output_file_path):
 
 # Example usage---------------------------------------------------
 #Define the location of the report extensions file and the output file
-json_file_path = r'C:\Users\kavas\OneDrive\Documents\Desktop\BP BI Forum\BP Forum 2024\UK Combined Dataset.Report\definition\reportExtensions.json'
-output_file_path = r'C:\Users\kavas\OneDrive\Documents\GitHub\PBITraining\Save Files\reportmeasures.csv'
+json_file_path = r'reportextensions.json file location'
+output_file_path = r'save file location and name'
 
 extracted_info = extract_information(json_file_path)
 save_to_csv(extracted_info, output_file_path)

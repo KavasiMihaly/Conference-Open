@@ -60,9 +60,9 @@ def save_matching_files_to_csv(files, words, directory, current_date):
 
 # Example usage --------------------------------------------------------------
 # Define the directory to save the results
-save_directory = r"C:\Users\kavas\OneDrive\Documents\GitHub\Python-Scripts\Save Files"
+save_directory = r"save location folder"
 # Define the directories to search in and the words to search for
-input_file_location = r"C:\Users\kavas\OneDrive\Documents\GitHub\Python-Scripts\search_words.csv"
+input_file_location = r"search words file location"
 #Extract the current date
 current_date = datetime.now().strftime("%Y%m%d")
 # Read the search parameters from the CSV file

@@ -44,7 +44,7 @@ def save_json_file(file_path, data):
 
 #Example usage--------------------------------------------------------------
 #Define the path to the CSV file which contains the list of files (generate the list with the findfiles.py script)
-csv_file_path = r'C:\Users\kavas\OneDrive\Documents\GitHub\Python-Scripts\Save Files\matching_files_kpi_20241119.csv'
+csv_file_path = r'find files script output file path'
 file_list = read_file_list(csv_file_path)
 #---------------------------------------------------------------------------
 
